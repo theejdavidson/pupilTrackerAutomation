@@ -11,13 +11,20 @@ Utilizing scipy.optimize package: Nelder-Mead Simplex & SLSQP Algorithm. Matplot
 
 Still needs fixing to analyze a custom image. We are unsure as to why the method is returning an image that cannot be analyzed.  Possible that io.imRead does not perform the same function as the data.directoryFile() used in example code.
 
-### ----- Description of the parameters for the cv2.HoughCircles function ----
+ ####----- Description of the parameters for the cv2.HoughCircles function ----**
 
 **img:** Input image (grayscale)
+
 **cv2.HOUGH_GRADIENT:** Define the detection method
+
 **dp** = 2: The inverse ratio of resolution
+
 **min_dist** = 50 Minimum distance between detected centers
+
 **param1** = 30: Upper threshold for the internal Canny edge detector
+
 **param2** = 195: Threshold for center detection.
+
 **minRadius** = 100: Minimum radio to be detected. If unknown, put zero as default.
+
 **maxRadius** = 200: Maximum radius to be detected. If unknown, put zero as default
