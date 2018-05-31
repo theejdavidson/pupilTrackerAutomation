@@ -11,7 +11,7 @@ Utilizing scipy.optimize package: Nelder-Mead Simplex & SLSQP Algorithm. Matplot
 
 Still needs fixing to analyze a custom image. We are unsure as to why the method is returning an image that cannot be analyzed.  Possible that io.imRead does not perform the same function as the data.directoryFile() used in example code.
 
-#### Description of the parameters for the cv2.HoughCircles function
+#### Description of the parameters for the cv2.HoughCircles function (Note that these parameters will have to be manually adjusted per frame in order to achieve optimal pupil fit)
 
 **img:** Input image (grayscale)
 
