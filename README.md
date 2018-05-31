@@ -29,6 +29,6 @@ Still needs fixing to analyze a custom image. We are unsure as to why the method
 
 **param2** = 195: Threshold for center detection.
 
-**minRadius** = 100: Minimum radio to be detected. If unknown, put zero as default.
+**minRadius** = 100: Minimum radio to be detected. If unknown, put zero as default
 
 **maxRadius** = 200: Maximum radius to be detected. If unknown, put zero as default
